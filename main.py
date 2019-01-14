@@ -14,7 +14,7 @@ for index, row in myData.iterrows():
     newMail.subject = "2019 Recruitment Planning - " + row['Department']
     newMail.To = row['Email']
     newMail.HTMLBody = """
-                <font face=""Calibri""><p><strong>Summer Recruitment has begun!</strong></p>
+                <font face="Calibri"><p><strong>Summer Recruitment has begun!</strong></p>
                 <p>We are planning to recruit for """ + row['Department'] + """ 
                 and want to ensure you're perpared</p><p>We'll be holding meetings. Please attend</p>
                 </font>"""
